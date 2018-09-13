@@ -1,5 +1,65 @@
 
+
 .row {
-    margin-top: 1em;
+    margin-top: 1.5em;
 }
 
+
+/*TABLET STYLE**************************/
+
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+	#btn-action {
+		text-align: center;
+	}
+
+
+	#media-text {
+		margin-top: 3%;
+	}
+
+	#media-text > h1 {
+		text-align: center;
+	}
+
+	#media-text > p {
+		text-indent: 2em;
+		text-align: justify;
+	}
+
+	.card-deck {
+		margin-bottom: 100px;
+	}
+
+
+
+}
+
+/*MOBILE STYLE**************************/
+
+@media only screen and (max-width: 400px) {
+	
+	#btn-action {
+		text-align: center;
+	}
+
+	#media-text {
+		margin-top: 3%;
+	}
+
+	#media-text > h1 {
+		text-align: center;
+	}
+
+	#media-text > p {
+		text-indent: 2em;
+		text-align: justify;
+	}
+
+	#card-3 {
+		margin-bottom: 100px;
+	}
+
+
+}
